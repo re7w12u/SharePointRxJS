@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ABC547AE-6FFE-49BE-8A2E-6CEE1E8D3316}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SharePointRxJS</RootNamespace>
+    <AssemblyName>SharePointRxJS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="node_modules\rx\.coveralls.yml" />
+    <None Include="node_modules\rx\.editorconfig" />
+    <None Include="node_modules\rx\.jamignore" />
+    <None Include="node_modules\rx\.jscsrc" />
+    <None Include="node_modules\rx\.jscsrc.todo" />
+    <None Include="node_modules\rx\bower.json" />
+    <None Include="node_modules\rx\code-of-conduct.md" />
+    <None Include="node_modules\rx\component.json" />
+    <None Include="node_modules\rx\contributing.md" />
+    <None Include="node_modules\rx\dist\rx.aggregates.map" />
+    <None Include="node_modules\rx\dist\rx.all.compat.map" />
+    <None Include="node_modules\rx\dist\rx.all.map" />
+    <None Include="node_modules\rx\dist\rx.async.compat.map" />
+    <None Include="node_modules\rx\dist\rx.async.map" />
+    <None Include="node_modules\rx\dist\rx.backpressure.map" />
+    <None Include="node_modules\rx\dist\rx.binding.map" />
+    <None Include="node_modules\rx\dist\rx.coincidence.map" />
+    <None Include="node_modules\rx\dist\rx.compat.map" />
+    <None Include="node_modules\rx\dist\rx.core.binding.map" />
+    <None Include="node_modules\rx\dist\rx.core.map" />
+    <None Include="node_modules\rx\dist\rx.core.testing.map" />
+    <None Include="node_modules\rx\dist\rx.experimental.map" />
+    <None Include="node_modules\rx\dist\rx.joinpatterns.map" />
+    <None Include="node_modules\rx\dist\rx.lite.compat.map" />
+    <None Include="node_modules\rx\dist\rx.lite.extras.compat.map" />
+    <None Include="node_modules\rx\dist\rx.lite.extras.map" />
+    <None Include="node_modules\rx\dist\rx.lite.map" />
+    <None Include="node_modules\rx\dist\rx.map" />
+    <None Include="node_modules\rx\dist\rx.sorting.map" />
+    <None Include="node_modules\rx\dist\rx.testing.map" />
+    <None Include="node_modules\rx\dist\rx.time.map" />
+    <None Include="node_modules\rx\dist\rx.virtualtime.map" />
+    <None Include="node_modules\rx\package.json" />
+    <None Include="node_modules\rx\readme.md" />
+    <None Include="node_modules\rx\ts\tsconfig.json" />
+    <None Include="RxJSModule\Content\bootstrap-theme.css.map" />
+    <None Include="RxJSModule\Content\bootstrap-theme.min.css.map" />
+    <None Include="RxJSModule\Content\bootstrap.css.map" />
+    <None Include="RxJSModule\Content\bootstrap.min.css.map" />
+    <None Include="Features\RxJS\RxJS.feature">
+      <FeatureId>{5cf878af-4407-4d6e-8b75-6d438de2976e}</FeatureId>
+    </None>
+    <None Include="RxJSModule\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="RxJSModule\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="RxJSModule\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="RxJSModule\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="key.snk" />
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{f22f1be5-fd0d-42c8-8283-3e6a92131428}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="RxJSModule\Scripts\jquery-3.1.1.min.map" />
+    <None Include="RxJSModule\Scripts\jquery-3.1.1.slim.min.map" />
+    <None Include="RxJSModule\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{11829d0f-85ea-41d4-b3ac-3a6f39e7931f}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="node_modules\rx\authors.txt" />
+    <Content Include="node_modules\rx\dist\rx.aggregates.js" />
+    <Content Include="node_modules\rx\dist\rx.aggregates.min.js" />
+    <Content Include="node_modules\rx\dist\rx.all.compat.js" />
+    <Content Include="node_modules\rx\dist\rx.all.compat.min.js" />
+    <Content Include="node_modules\rx\dist\rx.all.js" />
+    <Content Include="node_modules\rx\dist\rx.all.min.js" />
+    <Content Include="node_modules\rx\dist\rx.async.compat.js" />
+    <Content Include="node_modules\rx\dist\rx.async.compat.min.js" />
+    <Content Include="node_modules\rx\dist\rx.async.js" />
+    <Content Include="node_modules\rx\dist\rx.async.min.js" />
+    <Content Include="node_modules\rx\dist\rx.backpressure.js" />
+    <Content Include="node_modules\rx\dist\rx.backpressure.min.js" />
+    <Content Include="node_modules\rx\dist\rx.binding.js" />
+    <Content Include="node_modules\rx\dist\rx.binding.min.js" />
+    <Content Include="node_modules\rx\dist\rx.coincidence.js" />
+    <Content Include="node_modules\rx\dist\rx.coincidence.min.js" />
+    <Content Include="node_modules\rx\dist\rx.compat.js" />
+    <Content Include="node_modules\rx\dist\rx.compat.min.js" />
+    <Content Include="node_modules\rx\dist\rx.core.binding.js" />
+    <Content Include="node_modules\rx\dist\rx.core.binding.min.js" />
+    <Content Include="node_modules\rx\dist\rx.core.js" />
+    <Content Include="node_modules\rx\dist\rx.core.min.js" />
+    <Content Include="node_modules\rx\dist\rx.core.testing.js" />
+    <Content Include="node_modules\rx\dist\rx.core.testing.min.js" />
+    <Content Include="node_modules\rx\dist\rx.experimental.js" />
+    <Content Include="node_modules\rx\dist\rx.experimental.min.js" />
+    <Content Include="node_modules\rx\dist\rx.joinpatterns.js" />
+    <Content Include="node_modules\rx\dist\rx.joinpatterns.min.js" />
+    <Content Include="node_modules\rx\dist\rx.js" />
+    <Content Include="node_modules\rx\dist\rx.lite.compat.js" />
+    <Content Include="node_modules\rx\dist\rx.lite.compat.min.js" />
+    <Content Include="node_modules\rx\dist\rx.lite.extras.compat.js" />
+    <Content Include="node_modules\rx\dist\rx.lite.extras.compat.min.js" />
+    <Content Include="node_modules\rx\dist\rx.lite.extras.js" />
+    <Content Include="node_modules\rx\dist\rx.lite.extras.min.js" />
+    <Content Include="node_modules\rx\dist\rx.lite.js" />
+    <Content Include="node_modules\rx\dist\rx.lite.min.js" />
+    <Content Include="node_modules\rx\dist\rx.min.js" />
+    <Content Include="node_modules\rx\dist\rx.sorting.js" />
+    <Content Include="node_modules\rx\dist\rx.sorting.min.js" />
+    <Content Include="node_modules\rx\dist\rx.testing.js" />
+    <Content Include="node_modules\rx\dist\rx.testing.min.js" />
+    <Content Include="node_modules\rx\dist\rx.time.js" />
+    <Content Include="node_modules\rx\dist\rx.time.min.js" />
+    <Content Include="node_modules\rx\dist\rx.virtualtime.js" />
+    <Content Include="node_modules\rx\dist\rx.virtualtime.min.js" />
+    <Content Include="node_modules\rx\index.js" />
+    <Content Include="node_modules\rx\license.txt" />
+    <Content Include="RxJSModule\Content\bootstrap-theme.css" />
+    <Content Include="RxJSModule\Content\bootstrap-theme.min.css" />
+    <Content Include="RxJSModule\Content\bootstrap.css" />
+    <Content Include="RxJSModule\Content\bootstrap.min.css" />
+    <Content Include="Features\RxJS\RxJS.Template.xml">
+      <DependentUpon>RxJS.feature</DependentUpon>
+    </Content>
+    <Content Include="RxJSModule\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="RxJSModule\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RxJSModule\js\myapp3.js" />
+    <Content Include="RxJSModule\js\myapp2.js" />
+    <Content Include="RxJSModule\js\myapp1.js" />
+    <Content Include="RxJSModule\Scripts\rx.all.js" />
+    <Content Include="RxJSModule\rxjs.html" />
+    <Content Include="RxJSModule\Scripts\bootstrap.js" />
+    <Content Include="RxJSModule\Scripts\bootstrap.min.js" />
+    <Content Include="RxJSModule\Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="RxJSModule\Scripts\jquery-3.1.1.js" />
+    <Content Include="RxJSModule\Scripts\jquery-3.1.1.min.js" />
+    <Content Include="RxJSModule\Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="RxJSModule\Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="RxJSModule\Scripts\rx.compat.js" />
+    <Content Include="RxJSModule\Scripts\rx.compat.min.js" />
+    <Content Include="RxJSModule\Scripts\rx.js" />
+    <Content Include="RxJSModule\Scripts\rx.min.js" />
+    <None Include="tsconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="node_modules\rx\ts\core\abstractobserver.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\anonymousobservable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\anonymousobserver.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\backpressure\controlled.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\backpressure\pausable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\backpressure\pausablebuffered.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\backpressure\pauser.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\backpressure\stopandwait.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\backpressure\windowed.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\checkedobserver.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\currentthreadscheduler.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\defaultscheduler.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\historicalscheduler.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\immediatescheduler.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\scheduleditem.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\scheduleperiodicrecursive.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\scheduler.periodic.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\scheduler.recursive.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\scheduler.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\scheduler.wrappers.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\concurrency\virtualtimescheduler.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\disposables\booleandisposable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\disposables\compositedisposable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\disposables\disposable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\disposables\refcountdisposable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\es5.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\es6-iterable.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\es6-promise.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\es6.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\internal\bindcallback.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\internal\errors.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\internal\isequal.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\internal\priorityqueue.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\internal\util.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\joins\pattern.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\joins\plan.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\connectableobservable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\groupedobservable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\amb.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\ambproto.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\and.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\asobservable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\average.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\buffer.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\bufferwithcount.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\bufferwithtime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\bufferwithtimeorcount.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\case.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\catch.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\catchproto.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\combinelatest.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\combinelatestproto.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\concat.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\concatall.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\concatmap.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\concatmapobserver.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\concatproto.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\count.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\create.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\debounce.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\defaultifempty.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\defer.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\delay.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\delaysubscription.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\dematerialize.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\distinct.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\distinctuntilchanged.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\dowhile.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\elementat.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\empty.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\every.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\expand.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\filter.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\finally.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\find.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\findindex.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\first.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\flatmap.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\flatmapfirst.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\flatmaplatest.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\flatmapwithmaxconcurrent.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\for.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\forkjoin.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\forkjoinproto.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\from.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\fromarray.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\fromcallback.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\fromevent.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\fromeventpattern.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\fromnodecallback.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\frompromise.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\generate.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\generatewithabsolutetime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\generatewithrelativetime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\groupby.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\groupbyuntil.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\groupjoin.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\if.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\ignoreelements.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\includes.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\indexof.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\interval.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\isempty.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\join.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\jortsort.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\jortsortuntil.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\just.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\last.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\let.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\manyselect.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\map.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\materialize.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\max.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\maxby.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\merge.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\mergeall.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\mergeconcat.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\mergedelayerror.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\min.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\minby.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\multicast.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\never.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\observeon.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\of.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\ofarraychanges.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\ofobjectchanges.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\onerrorresumenext.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\onerrorresumenextproto.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\pairs.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\pairwise.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\partition.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\pipe.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\pluck.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\publish.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\publishlast.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\publishvalue.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\range.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\reduce.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\repeat.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\repeatproto.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\replay.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\retry.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\retrywhen.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\sample.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\scan.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\selectmanyobserver.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\sequenceequal.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\share.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\sharereplay.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\sharevalue.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\single.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\singleinstance.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\skip.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\skiplast.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\skiplastwithtime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\skipuntil.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\skipuntilwithtime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\skipwhile.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\skipwithtime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\some.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\spawn.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\start.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\startasync.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\startwith.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\subscribeon.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\sum.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\switch.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\switchfirst.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\take.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\takelast.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\takelastbuffer.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\takelastbufferwithtime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\takelastwithtime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\takeuntil.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\takeuntilwithtime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\takewhile.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\takewithtime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\tap.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\thendo.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\throttle.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\throw.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\timeinterval.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\timeout.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\timer.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\timestamp.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\toarray.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\toasync.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\tomap.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\topromise.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\toset.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\transduce.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\using.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\when.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\while.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\window.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\windowwithcount.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\windowwithtime.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\windowwithtimeorcount.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\withlatestfrom.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\zip.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\linq\observable\zipiterable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\notification.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\observable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\observer-extras.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\observer-lite.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\observer.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\scheduledobserver.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\subjects\anonymoussubject.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\subjects\asyncsubject.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\subjects\behaviorsubject.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\subjects\replaysubject.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\subjects\subject.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\testing\mockdisposable.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\testing\mockobserver.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\testing\reactivetest.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\testing\recorded.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\testing\subscription.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\core\testing\testscheduler.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\es6-promise.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\iterable.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.aggregates.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.aggregates.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.all.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.all.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.async.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.async.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.backpressure.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.backpressure.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.binding.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.binding.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.coincidence.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.coincidence.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.core.binding.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.core.binding.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.core.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.core.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.core.testing.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.core.testing.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.experimental.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.experimental.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.joinpatterns.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.joinpatterns.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.lite.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.lite.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.lite.extras.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.lite.extras.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.sorting.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.sorting.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.testing.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.testing.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.time.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.time.es6.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.virtualtime.d.ts" />
+    <TypeScriptCompile Include="node_modules\rx\ts\rx.virtualtime.es6.d.ts" />
+    <TypeScriptCompile Include="RxJSModule\js\file1.ts" />
+    <TypeScriptCompile Include="RxJSModule\Scripts\rx.d.ts" />
+    <TypeScriptCompile Include="RxJSModule\Scripts\rx.es6.d.ts" />
+    <TypeScriptCompile Include="RxJSModule\Scripts\rx.lite.d.ts" />
+    <TypeScriptCompile Include="RxJSModule\Scripts\rx.lite.es6.d.ts" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <!--<PropertyGroup>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptIncludeComments>true</TypeScriptIncludeComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>system</TypeScriptModuleKind>
+    <TypeScriptOutFile>bundle.js</TypeScriptOutFile>
+    <TypeScriptOutDir>E:\SRC\POC\SharePointRxJS\SharePointRxJS\RxJSModule\js</TypeScriptOutDir>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" />-->
+</Project>

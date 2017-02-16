@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RxJSModule" Url="SiteAssets">
+    <File Path="RxJSModule\js\myapp1.js" Url="js/myapp1.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\js\myapp2.js" Url="js/myapp2.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\rxjs.html" Url="rxjs.html" />
+    <File Path="RxJSModule\fonts\glyphicons-halflings-regular.eot" Url="fonts/glyphicons-halflings-regular.eot" />
+    <File Path="RxJSModule\fonts\glyphicons-halflings-regular.svg" Url="fonts/glyphicons-halflings-regular.svg" />
+    <File Path="RxJSModule\fonts\glyphicons-halflings-regular.ttf" Url="fonts/glyphicons-halflings-regular.ttf" />
+    <File Path="RxJSModule\fonts\glyphicons-halflings-regular.woff" Url="fonts/glyphicons-halflings-regular.woff" />
+    <File Path="RxJSModule\fonts\glyphicons-halflings-regular.woff2" Url="fonts/glyphicons-halflings-regular.woff2" />
+    <File Path="RxJSModule\Content\bootstrap-theme.css" Url="Content/bootstrap-theme.css" />
+    <File Path="RxJSModule\Content\bootstrap-theme.css.map" Url="Content/bootstrap-theme.css.map" />
+    <File Path="RxJSModule\Content\bootstrap-theme.min.css" Url="Content/bootstrap-theme.min.css" />
+    <File Path="RxJSModule\Content\bootstrap-theme.min.css.map" Url="Content/bootstrap-theme.min.css.map" />
+    <File Path="RxJSModule\Content\bootstrap.css" Url="Content/bootstrap.css" />
+    <File Path="RxJSModule\Content\bootstrap.css.map" Url="Content/bootstrap.css.map" />
+    <File Path="RxJSModule\Content\bootstrap.min.css" Url="Content/bootstrap.min.css" />
+    <File Path="RxJSModule\Content\bootstrap.min.css.map" Url="Content/bootstrap.min.css.map" />    
+    
+    <File Path="RxJSModule\Scripts\rx.all.js" Url="Scripts/rx.all.js" Type="GhostableInLibrary" />
+    
+    <File Path="RxJSModule\Scripts\bootstrap.js" Url="Scripts/bootstrap.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\jquery-3.1.1.intellisense.js" Url="Scripts/jquery-3.1.1.intellisense.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\jquery-3.1.1.js" Url="Scripts/jquery-3.1.1.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\jquery-3.1.1.min.js" Url="Scripts/jquery-3.1.1.min.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\jquery-3.1.1.min.map" Url="Scripts/jquery-3.1.1.min.map" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\jquery-3.1.1.slim.js" Url="Scripts/jquery-3.1.1.slim.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\jquery-3.1.1.slim.min.js" Url="Scripts/jquery-3.1.1.slim.min.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\jquery-3.1.1.slim.min.map" Url="Scripts/jquery-3.1.1.slim.min.map" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\rx.compat.js" Url="Scripts/rx.compat.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\rx.compat.min.js" Url="Scripts/rx.compat.min.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\rx.js" Url="Scripts/rx.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\Scripts\rx.min.js" Url="Scripts/rx.min.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\js\myapp3.js" Url="js/myapp3.js" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

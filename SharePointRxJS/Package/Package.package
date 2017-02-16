@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f22f1be5-fd0d-42c8-8283-3e6a92131428" solutionId="f22f1be5-fd0d-42c8-8283-3e6a92131428" resetWebServer="false" sharePointProductVersion="15.0" name="SharePointRxJS" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="5cf878af-4407-4d6e-8b75-6d438de2976e" />
+  </features>
+</package>

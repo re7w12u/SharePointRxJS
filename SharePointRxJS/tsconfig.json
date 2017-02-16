@@ -1,0 +1,12 @@
+﻿{
+    "compilerOptions": {
+		"target":"es5,"
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+		"outFile": "RxJSModule/js/tsc.js",
+        "sourceMap": true
+    }
+}

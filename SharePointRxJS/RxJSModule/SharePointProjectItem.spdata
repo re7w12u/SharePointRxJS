@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="RxJSModule\" Type="ElementManifest" />
+    <ProjectItemFile Source="js\myapp1.js" Target="RxJSModule\js\" Type="ElementFile" />
+    <ProjectItemFile Source="rxjs.html" Target="RxJSModule\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.eot" Target="RxJSModule\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.svg" Target="RxJSModule\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.ttf" Target="RxJSModule\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.woff" Target="RxJSModule\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.woff2" Target="RxJSModule\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Content\bootstrap-theme.css" Target="RxJSModule\Content\" Type="ElementFile" />
+    <ProjectItemFile Source="Content\bootstrap-theme.css.map" Target="RxJSModule\Content\" Type="ElementFile" />
+    <ProjectItemFile Source="Content\bootstrap-theme.min.css" Target="RxJSModule\Content\" Type="ElementFile" />
+    <ProjectItemFile Source="Content\bootstrap-theme.min.css.map" Target="RxJSModule\Content\" Type="ElementFile" />
+    <ProjectItemFile Source="Content\bootstrap.css" Target="RxJSModule\Content\" Type="ElementFile" />
+    <ProjectItemFile Source="Content\bootstrap.css.map" Target="RxJSModule\Content\" Type="ElementFile" />
+    <ProjectItemFile Source="Content\bootstrap.min.css" Target="RxJSModule\Content\" Type="ElementFile" />
+    <ProjectItemFile Source="Content\bootstrap.min.css.map" Target="RxJSModule\Content\" Type="ElementFile" />
+    <ProjectItemFile Source="js\myapp2.js" Target="RxJSModule\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\file1.ts" Target="RxJSModule\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\rx.all.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\bootstrap.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\bootstrap.min.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\jquery-3.1.1.intellisense.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\jquery-3.1.1.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\jquery-3.1.1.min.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\jquery-3.1.1.min.map" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\jquery-3.1.1.slim.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\jquery-3.1.1.slim.min.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\jquery-3.1.1.slim.min.map" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\rx.compat.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\rx.compat.min.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\rx.d.ts" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\rx.es6.d.ts" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\rx.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\rx.lite.d.ts" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\rx.lite.es6.d.ts" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Scripts\rx.min.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="js\myapp3.js" Target="RxJSModule\js\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
