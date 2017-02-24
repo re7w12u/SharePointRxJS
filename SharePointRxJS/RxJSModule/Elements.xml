@@ -34,5 +34,6 @@
     <File Path="RxJSModule\Scripts\rx.js" Url="Scripts/rx.js" Type="GhostableInLibrary" />
     <File Path="RxJSModule\Scripts\rx.min.js" Url="Scripts/rx.min.js" Type="GhostableInLibrary" />
     <File Path="RxJSModule\js\myapp3.js" Url="js/myapp3.js" Type="GhostableInLibrary" />
+    <File Path="RxJSModule\js\myapp4.js" Url="js/myapp4.js" Type="GhostableInLibrary" />
   </Module>
 </Elements>

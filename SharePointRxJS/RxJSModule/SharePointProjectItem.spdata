@@ -38,5 +38,6 @@
     <ProjectItemFile Source="Scripts\rx.lite.es6.d.ts" Target="RxJSModule\Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="Scripts\rx.min.js" Target="RxJSModule\Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="js\myapp3.js" Target="RxJSModule\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\myapp4.js" Target="RxJSModule\js\" Type="ElementFile" />
   </Files>
 </ProjectItem>

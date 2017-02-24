@@ -178,6 +178,7 @@
     <Content Include="RxJSModule\Elements.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="RxJSModule\js\myapp4.js" />
     <Content Include="RxJSModule\js\myapp3.js" />
     <Content Include="RxJSModule\js\myapp2.js" />
     <Content Include="RxJSModule\js\myapp1.js" />
